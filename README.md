@@ -110,9 +110,97 @@ See [`PROJECT_DOCUMENTATION.md`](PROJECT_DOCUMENTATION.md) for full technical do
 
 ## 📸 Screenshots
 
-> _Add screenshots here — e.g. create a `screenshots/` folder and reference them:_
->
-> `![Login](screenshots/login.png)` · `![Home](screenshots/home.png)` · `![Scoreboard](screenshots/scoreboard.png)`
+### 🔐 Onboarding & Authentication
+<p>
+  <img src="screenshots/01_no_internet.jpeg" width="190" title="No internet dialog"/>
+  <img src="screenshots/02_login.jpeg" width="190" title="Login"/>
+  <img src="screenshots/03_login_validation.jpeg" width="190" title="Login validation"/>
+</p>
+
+### 🏠 Home
+<p>
+  <img src="screenshots/04_admin_home.jpeg" width="190" title="Admin home"/>
+  <img src="screenshots/05_user_home.jpeg" width="190" title="User home"/>
+</p>
+
+### 📅 Admin — Schedule a Match
+<p>
+  <img src="screenshots/06_admin_schedule_date.jpeg" width="190" title="Pick date"/>
+  <img src="screenshots/07_admin_schedule_time.jpeg" width="190" title="Pick time"/>
+  <img src="screenshots/08_admin_schedule_calendar.jpeg" width="190" title="Calendar"/>
+  <img src="screenshots/09_admin_schedule_specs_1.jpeg" width="190" title="Match specs"/>
+</p>
+<p>
+  <img src="screenshots/10_admin_schedule_specs_2.jpeg" width="190" title="Match specs"/>
+  <img src="screenshots/11_admin_select_sport.jpeg" width="190" title="Select sport"/>
+  <img src="screenshots/12_admin_select_teams.jpeg" width="190" title="Select teams (VS)"/>
+</p>
+
+### 🗓️ User — Schedule
+<p>
+  <img src="screenshots/13_user_schedule_1.jpeg" width="190" title="User schedule"/>
+  <img src="screenshots/14_user_schedule_2.jpeg" width="190" title="User schedule day view"/>
+</p>
+
+### ⚽🏀 Admin — Scoreboard (Football / Basketball)
+<p>
+  <img src="screenshots/15_scoreboard_select_sport.jpeg" width="190" title="Select sport"/>
+  <img src="screenshots/16_football_events_list.jpeg" width="190" title="Events list"/>
+  <img src="screenshots/17_football_teams.jpeg" width="190" title="Team names"/>
+  <img src="screenshots/18_football_select_players.jpeg" width="190" title="Select players"/>
+</p>
+<p>
+  <img src="screenshots/19_football_scoreboard.jpeg" width="190" title="Football scoreboard"/>
+  <img src="screenshots/20_football_scoring_1.jpeg" width="190" title="Add score / timer"/>
+  <img src="screenshots/21_football_scoring_2.jpeg" width="190" title="Select scorer"/>
+</p>
+
+### 🏏 Admin — Scoreboard (Cricket)
+<p>
+  <img src="screenshots/22_cricket_scoreboard_intro_1.jpeg" width="190" title="Cricket scoreboard"/>
+  <img src="screenshots/23_cricket_scoreboard_intro_2.jpeg" width="190" title="Cricket scoreboard"/>
+  <img src="screenshots/24_cricket_select_players.jpeg" width="190" title="Select players"/>
+  <img src="screenshots/25_cricket_toss.jpeg" width="190" title="Toss winner"/>
+</p>
+<p>
+  <img src="screenshots/26_cricket_bat_bowl_choice.jpeg" width="190" title="Bat or bowl"/>
+  <img src="screenshots/27_cricket_select_positions.jpeg" width="190" title="Striker / non-striker / bowler"/>
+  <img src="screenshots/28_cricket_scoreboard.jpeg" width="190" title="Cricket scoreboard"/>
+  <img src="screenshots/29_cricket_new_bowler_batsman.jpeg" width="190" title="New bowler / batsman"/>
+</p>
+
+### 📡 User — Live Scores
+<p>
+  <img src="screenshots/30_user_football_event.jpeg" width="190" title="Choose event"/>
+  <img src="screenshots/31_user_football_live.jpeg" width="190" title="Football live"/>
+  <img src="screenshots/32_user_cricket_live_1.jpeg" width="190" title="Cricket live"/>
+  <img src="screenshots/33_user_cricket_live_2.jpeg" width="190" title="Cricket live"/>
+</p>
+
+### 📊 Analysis — Football
+<p>
+  <img src="screenshots/34_analysis_home.jpeg" width="190" title="Analysis home"/>
+  <img src="screenshots/35_analysis_team_player_menu.jpeg" width="190" title="Team / player menu"/>
+  <img src="screenshots/36_football_team_analysis_menu.jpeg" width="190" title="Football team analysis"/>
+</p>
+<p>
+  <img src="screenshots/37_football_team_goals.jpeg" width="190" title="Most goals (team)"/>
+  <img src="screenshots/38_football_team_wins.jpeg" width="190" title="Most wins (team)"/>
+  <img src="screenshots/39_football_player_goals.jpeg" width="190" title="Most goals (player)"/>
+</p>
+
+### 📈 Analysis — Cricket
+<p>
+  <img src="screenshots/40_cricket_team_analysis_menu.jpeg" width="190" title="Cricket team analysis"/>
+  <img src="screenshots/41_cricket_team_wickets.jpeg" width="190" title="Most wickets (team)"/>
+  <img src="screenshots/42_cricket_team_runs.jpeg" width="190" title="Most runs (team)"/>
+  <img src="screenshots/43_cricket_team_wins.jpeg" width="190" title="Most wins (team)"/>
+</p>
+<p>
+  <img src="screenshots/44_cricket_player_analysis_menu.jpeg" width="190" title="Cricket player analysis"/>
+  <img src="screenshots/45_cricket_player_wickets.jpeg" width="190" title="Most wickets (player)"/>
+  <img src="screenshots/46_cricket_player_runs.jpeg" width="190" title="Most runs (player)"/>
+</p>
 
 ---
 
