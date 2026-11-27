@@ -39,7 +39,7 @@ basketball.
 
 It never made it to everyday use on campus — we weren't professional developers yet, and
 our free-tier **Firebase storage was too limited** to run it at scale. But that was never
-the real win. The real win was proving to ourselves that two students could **teach
+the real win. The real win was proving to ourselves that three students could **teach
 themselves a new technology from scratch and ship a working app** — and that lesson has
 stuck with us ever since.
 
