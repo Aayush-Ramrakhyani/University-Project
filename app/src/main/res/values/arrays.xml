@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      NOTE: These string-arrays were referenced by the original code
+      (SingleChoice*.java) but their defining XML was NOT included in the
+      reference material (only the `layout/` and `nat/` folders were provided).
+      The values below are reconstructed from the PPTX (multi-sport app for
+      schools/colleges) and the in-app screenshots. Edit freely to match your
+      own tournament setup. See RECREATION_NOTES.md.
+    -->
+
+    <!-- Sports offered (used by SingleChoice / SingleChoice2 "Select game" dialogs) -->
+    <string-array name="choice">
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Volleyball</item>
+    </string-array>
+
+    <string-array name="choice2">
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Volleyball</item>
+    </string-array>
+
+    <!-- Participating teams (used by SingleChoice3 / SingleChoice4 "Select team" dialogs) -->
+    <string-array name="team">
+        <item>BCA</item>
+        <item>BSc IT</item>
+        <item>iMSc IT</item>
+        <item>MSc IT</item>
+        <item>MCA</item>
+    </string-array>
+
+    <string-array name="team2">
+        <item>BCA</item>
+        <item>BSc IT</item>
+        <item>iMSc IT</item>
+        <item>MSc IT</item>
+        <item>MCA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    // Namespace must stay com.example.nat so the generated R class matches the
+    // original source package and all R.* references resolve unchanged.
+    namespace 'com.example.nat'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.nat"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Core UI (AppCompat theme + widgets, ConstraintLayout used by 32 layouts)
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Firebase Realtime Database (login, schedule, live scoreboard, analysis)
+    implementation platform('com.google.firebase:firebase-bom:33.1.2')
+    implementation 'com.google.firebase:firebase-database'
+
+    // Calendar widget used on the user-side schedule screen (activity_main4)
+    implementation 'com.github.sundeepk:compactcalendarview:3.0.0'
+
+    // Form validation on the sign-up screen (Main2Activity -> AwesomeValidation)
+    implementation 'com.github.thyrlian:AwesomeValidation:4.3'
+}

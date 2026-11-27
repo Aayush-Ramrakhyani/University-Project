@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SportyFi brand palette (teal primary, derived from the original screenshots) -->
+    <color name="colorPrimary">#29B6C6</color>
+    <color name="colorPrimaryDark">#00252B</color>
+    <color name="colorAccent">#29DD7A</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#D8C410</color>
+    <color name="green">#29DD7A</color>
+    <color name="teal">#29B6C6</color>
+    <color name="orange">#E8763A</color>
+</resources>

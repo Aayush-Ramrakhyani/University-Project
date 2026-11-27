@@ -1,0 +1,20 @@
+// Project-level settings for SportyFi (recreated SportyFi / "Scoreboard with Schedule and Analysis" app)
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // Required for the CompactCalendarView library used on the schedule screen
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+rootProject.name = "SportyFi"
+include ':app'

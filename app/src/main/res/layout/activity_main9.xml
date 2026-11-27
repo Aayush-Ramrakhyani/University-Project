@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SELECT TEAMS (VS) screen (recreated: original activity_main9.xml not provided).
+  View ids (button_choice1, button_choice2, sub) and behaviour come from Main9Activity.java;
+  design follows PPTX slide 29 / "VS" screenshot (two team pickers + SUBMIT).
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main9Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/versus_background" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_choice1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/input_shape"
+            android:fontFamily="monospace"
+            android:text="SELECT TEAM"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_choice1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-black"
+            android:text="VS"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_choice2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/button_choice1"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/input_shape"
+            android:fontFamily="monospace"
+            android:text="SELECT TEAM"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_choice2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/edit_but"
+            android:fontFamily="monospace"
+            android:text="SUBMIT"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

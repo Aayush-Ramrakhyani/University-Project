@@ -1,0 +1,15 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+# Keep google-services.json OUT of version control if it holds real credentials.
+# A placeholder template is committed here for first build; replace with your own.
+# app/google-services.json
+
+app/google-services.json

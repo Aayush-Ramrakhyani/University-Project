@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SportyFi</string>
+
+    <!-- Sign-up form validation messages (used by AwesomeValidation in Main2Activity).
+         Originals were not in the supplied reference; reconstructed to match each rule. -->
+    <string name="nameerror">Enter a valid name (letters only, min 4 chars)</string>
+    <string name="emailerror">Enter a valid email address</string>
+    <string name="passworderror">Password must be letters only, at least 6 characters</string>
+    <string name="mobileerror">Enter a valid 10-digit mobile number</string>
+    <string name="iderror">Enter a valid login ID (letters only, min 4 chars)</string>
+</resources>
