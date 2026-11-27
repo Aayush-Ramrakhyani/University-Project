@@ -22,7 +22,7 @@
 Database**.
 
 > Originally an academic project — *GLS University, FCAIT, iMSc(IT), Ahmedabad.*
-> By **Neha Aswani**, **Trusha Bhavsar**, and **Aayush Ramrakhyani** · Mentor: *Prof. Ankita Kanojiya.*
+> By Neha Aswani, Trusha Bhavsar, and **Aayush Ramrakhyani** · Mentor: *Prof. Ankita Kanojiya.*
 
 ---
 
