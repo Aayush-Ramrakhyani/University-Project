@@ -28,22 +28,28 @@ Database**.
 
 ## 💡 The Story Behind SportyFi
 
-Back in **early 2020**, as third-year students, we had none of today's AI tools to lean on.
-We had to pick up a **completely new language and the whole Android + Firebase stack on our
-own** — learning from docs, forums, and a lot of trial and error.
+From **August 2019 to February 2020**, as third-year students, we built this with none of
+today's AI tools to lean on. We had to pick up a **completely new language and the whole
+Android + Firebase stack on our own** — learning from docs, forums, and a lot of trial and
+error.
 
-We decided to build something real for our **University**: a live sports scoreboard with
-scheduling and analysis. We worked on it for nearly **a year**, slowly figuring out
-real-time databases, multi-screen navigation, and live scoring for cricket, football and
-basketball.
+We set out to build something real for our **University**: a live sports scoreboard with
+scheduling and analysis. Over those seven months we slowly figured out real-time databases,
+multi-screen navigation, and live scoring for cricket, football and basketball — and by
+early 2020 we were close enough that we seriously considered **publishing it on the Google
+Play Store**.
 
-It never made it to everyday use on campus — we weren't professional developers yet, and
-our free-tier **Firebase storage was too limited** to run it at scale. But that was never
-the real win. The real win was proving to ourselves that three students could **teach
-themselves a new technology from scratch and ship a working app** — and that lesson has
-stuck with us ever since.
+Then the **COVID-19 lockdown hit**, right as we were wrapping up. With campus closed we had
+**no faculty support or guidance** on the last mile — how to actually publish an app, what
+security and safety measures to put in place, data and privacy considerations, none of it.
+That, together with the limits of our **free-tier Firebase**, meant SportyFi never made it
+to the Play Store.
 
-> This repository is a faithful recreation of that original 2020 project, rebuilt as a
+But that was never the real win. The real win was three students proving to ourselves that
+we could **teach ourselves a new technology from scratch and ship a working app** — a
+lesson that has stuck with us ever since.
+
+> This repository is a faithful recreation of that original 2019–2020 project, rebuilt as a
 > clean, buildable Android Studio project so the work isn't lost.
 
 ---
