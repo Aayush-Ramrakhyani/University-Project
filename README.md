@@ -26,6 +26,28 @@ Database**.
 
 ---
 
+## 💡 The Story Behind SportyFi
+
+Back in **early 2020**, as third-year students, we had none of today's AI tools to lean on.
+We had to pick up a **completely new language and the whole Android + Firebase stack on our
+own** — learning from docs, forums, and a lot of trial and error.
+
+We decided to build something real for our **University**: a live sports scoreboard with
+scheduling and analysis. We worked on it for nearly **a year**, slowly figuring out
+real-time databases, multi-screen navigation, and live scoring for cricket, football and
+basketball.
+
+It never made it to everyday use on campus — we weren't professional developers yet, and
+our free-tier **Firebase storage was too limited** to run it at scale. But that was never
+the real win. The real win was proving to ourselves that two students could **teach
+themselves a new technology from scratch and ship a working app** — and that lesson has
+stuck with us ever since.
+
+> This repository is a faithful recreation of that original 2020 project, rebuilt as a
+> clean, buildable Android Studio project so the work isn't lost.
+
+---
+
 ## ✨ Features
 
 - 🔐 **Login / Sign-up** — Firebase-backed auth with live form validation; separate **admin** and **user** flows.
